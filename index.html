@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>test</title>
+</head>
+
+<body>
+    <!-- <div>
+        learning css3 is fun
+    </div> -->
+    <p>HTML, JavaScript, CSS ActionSctipt cofff.f.ff.f.f..f.fipt cofff.f.ff.f.f..f.fipt cofff.f.ff.f.f..f.fipt
+        cofff.f.ff.f.f..f.fipt cofff.f.ff.f.f..f.fipt cofff.f.ff.f.f..f.fipt cofff.f.ff.f.f..f.fipt
+
+        cofff.f.ff.f.f..f.fipt cofff.f.ff.f.f..f.fipt cofff.f.ff.f.f..f.f.f.f..f.f.f..f.f.ff..f.f.f.</p>
+    <h1 id="value"></h1>
+    <h2 id="digit"></h2>
+    <button id="btn1">button 1</button>
+    <button id="btn2">button 2</button>
+
+    <script src="test.js"></script>
+
+    <input type="password" onmousedown="enterInput(event)">
+
+    <p id="feedback"></p>
+
+    <script>
+        function enterInput(e) {
+            var flag = e.getModifierState("CapsLock");
+            if (flag) {
+                document.getElementById("feedback").innerHTML = "CapsLock activated";
+
+            } else {
+                document.getElementById("feedback").innerHTML = "CapsLock not activated";
+            }
+        }
+    </script>
+
+</body>
+
+
+</html>
